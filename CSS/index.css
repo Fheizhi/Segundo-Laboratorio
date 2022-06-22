@@ -1,0 +1,41 @@
+@font-face {
+font-family: 'Fredericka The Great';
+    src: url(https://fonts.gstatic.com/s/frederickathegreat/v15/9Bt33CxNwt7aOctW2xjbCstzwVKsIBVV--StxbcVcg.woff2) format('woff2'),
+}
+
+html{
+    background: linear-gradient(to bottom, brown,orange);
+    max-width: 100%;
+    width: 90%;
+    max-height: 100%;
+    height: 90%;
+    color: rgba(165, 56, 26, 0.822);
+    font-size: xx-large;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+div{
+    background-color: white;
+    display: flex;
+}
+
+h1{
+    color: rgb(86, 33, 11);
+}
+
+div.texto{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 140px;
+}
+
+img{
+    padding: 2%;
+    width: 40%;
+    max-width: 50%;
+}
+
+li:hover{
+    color:red;  
+}
